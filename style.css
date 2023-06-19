@@ -1,0 +1,260 @@
+.fontpagina{
+ font-family: 'Roboto', sans-serif;
+ margin: 0%;
+}
+
+.bodyinicio {
+    margin: 0%;
+    display: grid;
+    grid-template-columns: 300px 960px;
+    grid-template-rows:100px 200px 1fr 20% ;
+    grid-template-areas:
+    "nav header"
+    "nav main "
+    "nav main"
+    "footer footer" ;
+}
+
+.headerinicio {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    grid-area: header; 
+
+}
+.logo{
+    width: 50px;
+
+}
+
+nav{
+    grid-area: nav;
+    background-color: beige;
+  
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+ul{
+    padding-left: 0%;
+    margin-left: 10px;
+}
+ ul li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+main {
+    grid-area: main;
+}
+
+main section h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+section a img {
+    width: 300px;
+    
+}
+.imginicio{
+    display: flex;
+    justify-content: center;
+
+}
+.imgwidth{
+    width: 800px;
+}
+
+section p {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    margin-bottom: 150px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    background-color: black;
+    grid-area: footer;
+}
+
+div h3 {
+    color: white;
+    margin-left: 10px;
+}
+
+.footerbloq {
+    color: white;
+    margin-left: 10px;
+}
+
+form div h4 {
+    color: white;
+}
+
+form div imput {
+    margin-right: 10px;
+}
+
+form div button {
+    margin-right: 10px;
+}
+
+.titulomsp{
+    background-color: black;
+    color: white;
+    margin-top: 0% ;
+}
+.divmsp{
+    display: flex;
+    justify-content: center;
+}
+.pmsp{
+    width: 60%;
+}
+.imgsmsp{
+    width: 400px;
+    display: flex;
+    justify-content: end;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+div h1{
+    margin: 0%;
+    padding: 10px;
+    background-color: beige;
+   
+}
+h2{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.volverinicio{
+   text-decoration: none;
+    color: white;
+   
+}
+
+header h1{
+    margin: 0%;
+    padding: 10px;
+    background-color: beige;
+}
+.imgdermapen{
+    width: 1000px;
+   
+}
+.imgprep{
+    width: 1000px;
+    
+}
+.nosotros{
+    margin: 40px;
+}
+@media (max-width: 426px) {
+    .bodyinicio {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows:5% 10% 50% 30% ;
+        grid-template-areas:
+        "header"
+        "nav"
+        "main "
+        "footer"
+    }
+    .headerinicio{
+        display: flex;
+        justify-content: center;
+    }
+    .logo{
+        width: 40px;
+        
+    }
+    nav{
+        width:100%;
+        background-color: black;
+    }
+     nav ul li{
+        margin-top: 10px;
+        margin-left: 5px;
+       
+     }
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    ul  li a {
+        font-size: x-small;
+        color: white;
+      
+    }
+    .imgwidth{
+        width: 400px;
+        margin-bottom: 30px;
+     }
+main section h1{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+section p{
+    font-size: small;
+    margin-left: 30px;
+}
+footer{
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+form{
+    margin-bottom: 10px;
+}
+
+    }
+
+ @media (max-width: 426px) {
+
+    div h1{
+        font-size: medium;
+       
+    }
+    header h2{
+        font-size: medium;
+    }
+   .divmsp{
+    display: flex;
+    flex-direction: column;
+   }
+   .pmsp{
+    width: 90%;
+     margin-left: 10px;
+    
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
