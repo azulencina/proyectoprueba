@@ -3,6 +3,7 @@
  margin: 0%;
 }
 
+
 .bodyinicio {
     margin: 0%;
     display: grid;
@@ -43,7 +44,7 @@ nav ul li {
 }
 ul{
     padding-left: 0%;
-    margin-left: 10px;
+    margin: 0%;
 }
  ul li a {
     text-decoration: none;
@@ -111,6 +112,19 @@ form div button {
     margin-right: 10px;
 }
 
+.navpages {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.backgroundpages{
+    background-color: black;
+}
+.colorpages{
+    color: white;
+}
+
 .titulomsp{
     background-color: black;
     color: white;
@@ -155,9 +169,12 @@ header h1{
     width: 1000px;
    
 }
+.padreimg{
+    display: flex;
+    justify-content: center;
+}
 .imgprep{
     width: 1000px;
-    
 }
 .nosotros{
     margin: 40px;
